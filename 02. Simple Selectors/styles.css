@@ -6,6 +6,10 @@ p {
   color: green;
 }
 
+h1 {
+  color: blue;
+}
+
 .heading1 {
   text-decoration: underline;
 }
@@ -18,10 +22,9 @@ p.fz20 {
   font-size: 20px;
 }
 
-#heading,
-#heading2 {
+#heading {
   font-size: 40px;
-  border: 1px solid #000;
+  border: 1px solid black;
 }
 
 q {
@@ -33,5 +36,5 @@ q.simple {
 }
 
 body q.simple {
-  color: fuchsia;
+  color: orange;
 }
