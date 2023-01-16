@@ -19,3 +19,29 @@ ul li > span {
 ul li + li {
   color: aqua;
 }
+
+br ~ p {
+  color: blue;
+  font-size: 30px;
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+a[target="_blank"] {
+  background-color: grey;
+}
+
+a[href^="http://123"]
+{
+  background-color: aqua;
+}
+
+a[href$=".jpg"] {
+  background-color: teal;
+}
+
+a[href*="link"] {
+  background-color: rebeccapurple;
+}
