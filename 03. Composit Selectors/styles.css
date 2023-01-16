@@ -1,0 +1,21 @@
+h1,
+h2,
+span {
+  color: red;
+}
+
+div p {
+  color: green;
+}
+
+div p span {
+  color: yellow;
+}
+
+ul li > span {
+  font-weight: bold;
+}
+
+ul li + li {
+  color: aqua;
+}
