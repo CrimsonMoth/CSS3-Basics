@@ -27,3 +27,16 @@ h1 {
   font-family: Helvetica;
   font-style: italic;
 }
+
+.fz10 {
+  color: orange;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#heading4 {
+  font-size: 40px;
+  font-weight: 200;
+}
