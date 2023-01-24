@@ -34,3 +34,28 @@ ul li + li {
 br ~ p {
   font-size: 40px;
 }
+
+a {
+  background-color: green;
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+a[target="_blank"] {
+  background-color: aqua;
+}
+
+a[href^="http://123"]
+{
+  background-color: navy;
+}
+
+a[href$=".jpg"] {
+  background-color: blueviolet;
+}
+
+a[href*="link"] {
+  background-color: rebeccapurple;
+}
