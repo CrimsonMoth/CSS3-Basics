@@ -16,8 +16,21 @@ div p span {
   background-origin: padding-box;
   border: 5px solid grey;
   font-style: italic;
-  font-weight: 700;
+  font-weight: bold;
   font-size: larger;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 20px;
+}
+
+ul li > span {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+ul li + li {
+  color: aquamarine;
+}
+
+br ~ p {
+  font-size: 40px;
 }
