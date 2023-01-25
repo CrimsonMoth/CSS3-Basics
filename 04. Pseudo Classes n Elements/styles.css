@@ -1,1 +1,15 @@
 @import "main.css";
+
+a {
+  background-color: aliceblue;
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
