@@ -14,7 +14,16 @@ a:hover {
   color: red;
 }
 
+a:active {
+  color: blue;
+}
+
 h1 {
   text-decoration: underline;
   text-overflow: clip;
+}
+
+button {
+  background-color: rosybrown;
+  margin: 50px;
 }
