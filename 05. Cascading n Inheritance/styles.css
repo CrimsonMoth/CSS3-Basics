@@ -3,5 +3,12 @@
 p {
   background-color: green;
   color: white;
+  border: 5px solid black;
   padding: 15px;
+}
+
+.style1 {
+  background-color: aqua;
+  color: brown;
+  border: none;
 }
