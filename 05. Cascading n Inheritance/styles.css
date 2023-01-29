@@ -22,3 +22,13 @@ p {
   background-color: gray;
 }
  */
+
+body {
+  color: red;
+  border: 1px solid black;
+}
+
+p {
+  border: inherit;
+  margin: inherit;
+}
