@@ -6,15 +6,21 @@ body {
 
 h4 {
   border: 1px solid red;
+  position: absolute;
+  bottom: 0px;
 }
 
 .test {
   border: 10px solid blue;
+  min-width: 100px;
+  max-width: 300px;
   width: 100px;
   height: 100px;
   display: inline-block;
   box-sizing: border-box;
-  position: absolute;
+  position: sticky;
   top: 20px;
   right: 20px;
 }
+
+/* sticky is almost never used */
