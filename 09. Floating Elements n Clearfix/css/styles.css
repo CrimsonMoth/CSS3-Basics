@@ -16,12 +16,23 @@
   /* overflow: auto; */
 }
 
-.clear {
+/* .clear {
   clear: both;
+} */
+
+.wrapper::after {
+  clear: both;
+  display: block;
+  content: "";
 }
 
 .wrapper2 {
   background-color: green;
+}
+
+.item {
+  float: left;
+  width: 150px;
 }
 
 .item1 {
