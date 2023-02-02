@@ -1,1 +1,15 @@
 @import "main.css";
+
+@font-face {
+  font-family: Roboto;
+  src: url(/fonts/Roboto-Regular.ttf) format("truetype"),
+    url(/fonts/Roboto-Regular.woff) format("woff"),
+    url(/fonts/Roboto-Regular.woff2) format("woff2"),
+    url(/fonts/Roboto-Regular.otf) format("opentype");
+  font-weight: 500px;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
