@@ -13,3 +13,18 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  color: blue;
+  text-decoration: underline overline line-through;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  line-height: 100px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-indent: 15px;
+}
