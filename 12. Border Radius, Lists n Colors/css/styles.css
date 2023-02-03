@@ -23,4 +23,16 @@
 
 ul li {
   list-style-type: disc;
+  list-style-position: outside;
+  list-style-image: ;
+}
+
+h1 {
+  /* color: red; */
+  /* color: #ff0000; */
+  /* color: rgb(255, 0, 0); */
+  /* color: hsl(0, 100%, 50%); */
+  /* color: rgba(255, 0, 0, 0.5); */
+
+  color: #9c27b0;
 }
