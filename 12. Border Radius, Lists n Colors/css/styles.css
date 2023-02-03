@@ -1,1 +1,26 @@
 @import "main.css";
+
+.exam {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 20px;
+  border: 1px solid red;
+
+  /* border-radius: 50%; 
+  - We can use % or px */
+
+  /* border-radius: 50% 40% 30% 20%;
+   -unevenly rounded according to set angle parameters */
+
+  /* border-radius: 20px/40px; */
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 50px;
+}
+
+ul li {
+  list-style-type: disc;
+}
