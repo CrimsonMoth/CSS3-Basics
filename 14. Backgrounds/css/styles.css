@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: gainsboro; */
+  /* background-image: url(https://picsum.photos/id/29/4000/2670); */
+  /* background-size: cover; */
+  /* background-size: 300px 250px; */
+  /* background-size: 300px 150px; */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  /* background-position: right top; */
+  /* background-position: 50% 50%; */
+  /* background-attachment: fixed; */
+  /* background: gainsboro url(https://picsum.photos/id/29/4000/2670) 300px 150px
+    no-repeat fixed; */
+
+  background: url(https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png)
+      center no-repeat,
+    url(https://picsum.photos/id/29/4000/2670);
+}
