@@ -7,7 +7,10 @@
 }
 
 .second {
-  visibility: hidden;
-
+  /* visibility: hidden; */
   /* - it's just hide text but text became visible for search */
+  /* opacity: 0; */
+  /* - It's stay just invisible (transparent) */
+  color: transparent;
+  /* - also the text became just invisible like transparent */
 }
