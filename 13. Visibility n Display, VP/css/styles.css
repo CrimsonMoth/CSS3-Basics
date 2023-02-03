@@ -1,1 +1,13 @@
 @import "main.css";
+
+.first {
+  display: none;
+
+  /* -it's hide (delete) text and it's not visible */
+}
+
+.second {
+  visibility: hidden;
+
+  /* - it's just hide text but text became visible for search */
+}
