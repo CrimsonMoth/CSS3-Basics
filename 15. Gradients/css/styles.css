@@ -1,1 +1,37 @@
-@import "main.css";
+body {
+  padding: 0;
+  margin: 0;
+  background-color: green;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+
+  /* background-image: linear-gradient(90deg, black, white); */
+  /* background: linear-gradient(45deg, black, white); */
+  /* background: linear-gradient(to top right, black, transparent); */
+  /* background: linear-gradient(45deg, red, orange, blue, white); */
+  /* background: linear-gradient(45deg, red 10%, orange 50%, blue 70%, white); */
+  /* background: linear-gradient(
+    180deg,
+    yellow 25%,
+    black 25%,
+    black 50%,
+    yellow 50%,
+    yellow 75%,
+    black 75%
+  ); */
+
+  /* background-image: repeating-linear-gradient(
+    45deg,
+    yellow 25px,
+    black 25px,
+    black 50px,
+    yellow 50px,
+    yellow 75px,
+    black 75px
+  ); */
+
+  background: repeating-radial-gradient(circle closest-side, aqua 20%, red 80%);
+}
