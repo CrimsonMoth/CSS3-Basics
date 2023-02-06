@@ -1,1 +1,29 @@
 @import "main.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example {
+  border: 2px solid gray;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+
+  /* transition-duration: 500ms, 2s;
+  transition-property: transform, background-color;
+  transition-property: 0, 500ms;
+  transition-timing-function: linear; */
+
+  transition: all 1s ease 0.5s;
+}
+
+.example:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}
