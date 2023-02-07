@@ -13,14 +13,22 @@ body {
   width: 200px;
   background-color: aquamarine;
 
-  animation-name: myAnimation;
+  /* animation-name: myAnimation;
   animation-duration: 5s;
+  animation-timing-function: linear;
+  /* animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; */
+  /* animation-fill-mode: forwards;
+  animation-delay: 3s; */
+  /* animation: myAnimation 5s linear 3s infinite alternate-reverse forwards; */
+  animation: bgChange 5s linear infinite, sizeChange 5s linear infinite;
 }
 
 .example:hover {
+  animation-play-state: paused;
 }
 
-@keyframes myAnimation {
+/* @keyframes myAnimation {
   from {
     background-color: aqua;
   }
@@ -30,5 +38,30 @@ body {
   }
   to {
     background-color: green;
+    transform: scale(1.5);
+  }
+} */
+
+@keyframes bgChange {
+  from {
+    background-color: aqua;
+  }
+  50% {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+@keyframes sizeChange {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
   }
 }
