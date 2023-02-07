@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+
+  animation-name: myAnimation;
+  animation-duration: 5s;
+}
+
+.example:hover {
+}
+
+@keyframes myAnimation {
+  from {
+    background-color: aqua;
+  }
+  50% {
+    background-color: red;
+    transform: scale(1.2);
+  }
+  to {
+    background-color: green;
+  }
+}
