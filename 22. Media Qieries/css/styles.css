@@ -1,0 +1,8 @@
+body {
+  padding: 10px 30px;
+  margin: 0;
+  height: 100vh;
+  background-color: lightgray;
+  font-family: monospace;
+  font-size: 24;
+}
