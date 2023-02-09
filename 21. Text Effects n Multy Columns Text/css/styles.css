@@ -8,3 +8,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.example {
+  font-size: 35px;
+  border: 1px solid black;
+  width: 150px;
+  min-width: 150px;
+  /* overflow: hidden;
+  /* text-overflow: clip; */
+  /* text-overflow: ellipsis;
+  white-space: nowrap; */
+  word-wrap: break-word;
+  word-break: break-all;
+}
