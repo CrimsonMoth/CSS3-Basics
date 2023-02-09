@@ -18,6 +18,13 @@ body {
   /* text-overflow: clip; */
   /* text-overflow: ellipsis;
   white-space: nowrap; */
-  word-wrap: break-word;
+  /* word-wrap: break-word;
   word-break: break-all;
+  writing-mode: vertical-rl; */
+}
+
+.container {
+  column-count: 2;
+  column-rule: 1px solid black;
+  /* column-width: 300px; */
 }
